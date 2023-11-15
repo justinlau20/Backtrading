@@ -4,7 +4,7 @@ Steps:
 1. Run `data_gen.py` to populate the data folder
 2. Run `backtest.py`. Currently, the strategy tested compares the % change of the price of each asset compared to the previous tick. If the % change differs by at least epsilon, short one asset and long the other, unless we are already holding the same position, in which case we do nothing. If we are currently holding some position and the % change is at most delta, close all positions.
 
-Here is some results on SOL/BTC with data from 2023-01-01 to 2023-10-01 with $\epsilon=2$ and $\delta=1$
+Here is some results on SOL/BTC with data from 2023-01-01 to 2023-10-01 with $\epsilon=2$ and $\delta=1$. A comission of 0.04% was used.
 ```
 Starting Portfolio Value: 100000.00
 
