@@ -1,4 +1,4 @@
-Simple backtesting framework.
+Simple backtesting framework. I do not expect the performance to persist in production since there is likely to be overfitting and all sorts of biases such as cherry picking. Minimal effort was put into the act of finding good alpha. Emphasis was on how to build a backtrading framework and how to evaluate a strategy.
 
 Steps:
 1. Run `data_gen.py` to populate the data folder
@@ -64,5 +64,3 @@ Average profit per trade: 189.21777850033635 USD
 
 Here is a plot:
 ![image info](./Plot.png)
-
-I do not expect the performance to persist in production since there is likely to be overfitting and all sorts of biases such as cherry picking. Minimal effort was put into the act of finding good alpha. Emphasis was on how to build a backtrading framework and how to evaluate a strategy.
